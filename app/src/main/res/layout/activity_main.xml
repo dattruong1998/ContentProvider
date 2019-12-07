@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextMaMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ma Mon Hoc" />
+
+    <TextView
+        android:id="@+id/textViewTestMa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+       />
+
+    <EditText
+        android:id="@+id/editTextTenMonHoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Ten Mon Hoc" />
+
+    <EditText
+        android:id="@+id/editTextSoChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="So Chi" />
+
+    <TextView
+        android:id="@+id/textViewTestSoChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+         />
+
+    <Button
+        android:id="@+id/buttonThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Them" />
+
+    <Button
+        android:id="@+id/buttonTim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tim" />
+
+    <Button
+        android:id="@+id/buttonXoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Xoa" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
